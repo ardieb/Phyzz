@@ -10,11 +10,17 @@ set(CMAKE_DEPENDS_CHECK_C
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "DEBUG"
+  "DEBUG=Release"
+  "EQUAL"
+  "SPDLOG_COMPILED_LIB"
+  )
+
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../imgui"
-  "../../imgui/impl/example_allegro5"
-  "../../imgui/impl/example_apple_metal/Shared"
   "../../imgui/impl/libs/gl3w/GL"
   "../../imgui/impl/libs/glfw"
   "../../imgui/impl/libs/glfw/include"
@@ -23,6 +29,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../imgui/misc/cpp"
   "../../imgui/misc/freetype"
   "../../imgui/misc/single_file"
+  "../../Eigen"
+  "/usr/local/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/arthurburke/Dev/Phyzz/imgui/imgui.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/imgui/imgui.cpp.o"
@@ -47,16 +55,26 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/arthurburke/Dev/Phyzz/imgui/misc/cpp/imgui_stdlib.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/imgui/misc/cpp/imgui_stdlib.cpp.o"
   "/Users/arthurburke/Dev/Phyzz/imgui/misc/fonts/binary_to_compressed_c.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/imgui/misc/fonts/binary_to_compressed_c.cpp.o"
   "/Users/arthurburke/Dev/Phyzz/imgui/misc/freetype/imgui_freetype.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/imgui/misc/freetype/imgui_freetype.cpp.o"
+  "/Users/arthurburke/Dev/Phyzz/src/App.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/src/App.cpp.o"
+  "/Users/arthurburke/Dev/Phyzz/src/Logging/PLogger.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o"
   "/Users/arthurburke/Dev/Phyzz/src/Main.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/src/Main.cpp.o"
-  "/Users/arthurburke/Dev/Phyzz/src/PSimulation.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o"
+  "/Users/arthurburke/Dev/Phyzz/src/Physics/Field.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o"
+  "/Users/arthurburke/Dev/Phyzz/src/Physics/PSimulation.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o"
+  "/Users/arthurburke/Dev/Phyzz/src/Toolkit/Solver.cpp" "/Users/arthurburke/Dev/Phyzz/CMakeFiles/Release/CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DEBUG"
+  "DEBUG=Release"
+  "EQUAL"
+  "SPDLOG_COMPILED_LIB"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../imgui"
-  "../../imgui/impl/example_allegro5"
-  "../../imgui/impl/example_apple_metal/Shared"
   "../../imgui/impl/libs/gl3w/GL"
   "../../imgui/impl/libs/glfw"
   "../../imgui/impl/libs/glfw/include"
@@ -65,6 +83,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../../imgui/misc/cpp"
   "../../imgui/misc/freetype"
   "../../imgui/misc/single_file"
+  "../../Eigen"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.

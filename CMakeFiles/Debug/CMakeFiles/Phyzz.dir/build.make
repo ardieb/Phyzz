@@ -369,18 +369,18 @@ CMakeFiles/Phyzz.dir/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/imgui/imgui_widgets.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/imgui/imgui_widgets.cpp -o CMakeFiles/Phyzz.dir/imgui/imgui_widgets.cpp.s
 
-CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o: CMakeFiles/Phyzz.dir/flags.make
-CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o: ../../src/PSimulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o -c /Users/arthurburke/Dev/Phyzz/src/PSimulation.cpp
+CMakeFiles/Phyzz.dir/src/App.cpp.o: CMakeFiles/Phyzz.dir/flags.make
+CMakeFiles/Phyzz.dir/src/App.cpp.o: ../../src/App.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Phyzz.dir/src/App.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Phyzz.dir/src/App.cpp.o -c /Users/arthurburke/Dev/Phyzz/src/App.cpp
 
-CMakeFiles/Phyzz.dir/src/PSimulation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phyzz.dir/src/PSimulation.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arthurburke/Dev/Phyzz/src/PSimulation.cpp > CMakeFiles/Phyzz.dir/src/PSimulation.cpp.i
+CMakeFiles/Phyzz.dir/src/App.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phyzz.dir/src/App.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arthurburke/Dev/Phyzz/src/App.cpp > CMakeFiles/Phyzz.dir/src/App.cpp.i
 
-CMakeFiles/Phyzz.dir/src/PSimulation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/src/PSimulation.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/src/PSimulation.cpp -o CMakeFiles/Phyzz.dir/src/PSimulation.cpp.s
+CMakeFiles/Phyzz.dir/src/App.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/src/App.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/src/App.cpp -o CMakeFiles/Phyzz.dir/src/App.cpp.s
 
 CMakeFiles/Phyzz.dir/src/Main.cpp.o: CMakeFiles/Phyzz.dir/flags.make
 CMakeFiles/Phyzz.dir/src/Main.cpp.o: ../../src/Main.cpp
@@ -394,6 +394,58 @@ CMakeFiles/Phyzz.dir/src/Main.cpp.i: cmake_force
 CMakeFiles/Phyzz.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/src/Main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/src/Main.cpp -o CMakeFiles/Phyzz.dir/src/Main.cpp.s
+
+CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o: CMakeFiles/Phyzz.dir/flags.make
+CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o: ../../src/Toolkit/Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o -c /Users/arthurburke/Dev/Phyzz/src/Toolkit/Solver.cpp
+
+CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arthurburke/Dev/Phyzz/src/Toolkit/Solver.cpp > CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.i
+
+CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/src/Toolkit/Solver.cpp -o CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.s
+
+CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o: CMakeFiles/Phyzz.dir/flags.make
+CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o: ../../src/Physics/Field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o -c /Users/arthurburke/Dev/Phyzz/src/Physics/Field.cpp
+
+CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arthurburke/Dev/Phyzz/src/Physics/Field.cpp > CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.i
+
+CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/src/Physics/Field.cpp -o CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.s
+
+CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o: CMakeFiles/Phyzz.dir/flags.make
+CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o: ../../src/Physics/PSimulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o -c /Users/arthurburke/Dev/Phyzz/src/Physics/PSimulation.cpp
+
+CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arthurburke/Dev/Phyzz/src/Physics/PSimulation.cpp > CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.i
+
+CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/src/Physics/PSimulation.cpp -o CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.s
+
+CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o: CMakeFiles/Phyzz.dir/flags.make
+CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o: ../../src/Logging/PLogger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o -c /Users/arthurburke/Dev/Phyzz/src/Logging/PLogger.cpp
+
+CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arthurburke/Dev/Phyzz/src/Logging/PLogger.cpp > CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.i
+
+CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arthurburke/Dev/Phyzz/src/Logging/PLogger.cpp -o CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.s
 
 # Object files for target Phyzz
 Phyzz_OBJECTS = \
@@ -421,8 +473,12 @@ Phyzz_OBJECTS = \
 "CMakeFiles/Phyzz.dir/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/Phyzz.dir/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/Phyzz.dir/imgui/imgui_widgets.cpp.o" \
-"CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o" \
-"CMakeFiles/Phyzz.dir/src/Main.cpp.o"
+"CMakeFiles/Phyzz.dir/src/App.cpp.o" \
+"CMakeFiles/Phyzz.dir/src/Main.cpp.o" \
+"CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o" \
+"CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o" \
+"CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o" \
+"CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o"
 
 # External object files for target Phyzz
 Phyzz_EXTERNAL_OBJECTS =
@@ -451,11 +507,16 @@ Phyzz: CMakeFiles/Phyzz.dir/imgui/imgui.cpp.o
 Phyzz: CMakeFiles/Phyzz.dir/imgui/imgui_demo.cpp.o
 Phyzz: CMakeFiles/Phyzz.dir/imgui/imgui_draw.cpp.o
 Phyzz: CMakeFiles/Phyzz.dir/imgui/imgui_widgets.cpp.o
-Phyzz: CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o
+Phyzz: CMakeFiles/Phyzz.dir/src/App.cpp.o
 Phyzz: CMakeFiles/Phyzz.dir/src/Main.cpp.o
+Phyzz: CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o
+Phyzz: CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o
+Phyzz: CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o
+Phyzz: CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o
 Phyzz: CMakeFiles/Phyzz.dir/build.make
+Phyzz: /usr/local/lib/libspdlog.a
 Phyzz: CMakeFiles/Phyzz.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable Phyzz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable Phyzz"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Phyzz.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

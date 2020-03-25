@@ -5,13 +5,13 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 C_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk  
 
-C_DEFINES = 
+C_DEFINES = -DDEBUG -DDEBUG=Debug -DEQUAL -DSPDLOG_COMPILED_LIB
 
-C_INCLUDES = -I/Users/arthurburke/Dev/Phyzz/imgui -I/Users/arthurburke/Dev/Phyzz/imgui/impl/example_allegro5 -I/Users/arthurburke/Dev/Phyzz/imgui/impl/example_apple_metal/Shared -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/gl3w/GL -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include/GLFW -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/usynergy -I/Users/arthurburke/Dev/Phyzz/imgui/misc/cpp -I/Users/arthurburke/Dev/Phyzz/imgui/misc/freetype -I/Users/arthurburke/Dev/Phyzz/imgui/misc/single_file 
+C_INCLUDES = -I/Users/arthurburke/Dev/Phyzz/imgui -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/gl3w/GL -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include/GLFW -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/usynergy -I/Users/arthurburke/Dev/Phyzz/imgui/misc/cpp -I/Users/arthurburke/Dev/Phyzz/imgui/misc/freetype -I/Users/arthurburke/Dev/Phyzz/imgui/misc/single_file -I/Users/arthurburke/Dev/Phyzz/Eigen -isystem /usr/local/include 
 
 CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -std=gnu++1z
 
-CXX_DEFINES = 
+CXX_DEFINES = -DDEBUG -DDEBUG=Debug -DEQUAL -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/Users/arthurburke/Dev/Phyzz/imgui -I/Users/arthurburke/Dev/Phyzz/imgui/impl/example_allegro5 -I/Users/arthurburke/Dev/Phyzz/imgui/impl/example_apple_metal/Shared -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/gl3w/GL -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include/GLFW -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/usynergy -I/Users/arthurburke/Dev/Phyzz/imgui/misc/cpp -I/Users/arthurburke/Dev/Phyzz/imgui/misc/freetype -I/Users/arthurburke/Dev/Phyzz/imgui/misc/single_file 
+CXX_INCLUDES = -I/Users/arthurburke/Dev/Phyzz/imgui -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/gl3w/GL -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include/GLFW -I/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/usynergy -I/Users/arthurburke/Dev/Phyzz/imgui/misc/cpp -I/Users/arthurburke/Dev/Phyzz/imgui/misc/freetype -I/Users/arthurburke/Dev/Phyzz/imgui/misc/single_file -I/Users/arthurburke/Dev/Phyzz/Eigen -isystem /usr/local/include 
 

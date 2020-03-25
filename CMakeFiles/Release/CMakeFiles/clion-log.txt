@@ -1,4 +1,2 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/arthurburke/Dev/Phyzz
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/arthurburke/Dev/Phyzz/CMakeFiles/Release
+Cannot generate 'Release' into /Users/arthurburke/Dev/Phyzz/CMakeFiles/Release
+CMakeCache.txt is found in the project dir, only in-source generation will be performed.

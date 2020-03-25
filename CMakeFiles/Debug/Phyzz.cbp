@@ -5,7 +5,7 @@
 		<Option title="Phyzz"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\spdlog\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/arthurburke/Dev/Phyzz/CMakeFiles/Debug"/>
@@ -44,9 +44,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DDEBUG=Debug"/>
+					<Add option="-DEQUAL"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui"/>
-					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/example_allegro5"/>
-					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/example_apple_metal/Shared"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/gl3w/GL"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include"/>
@@ -55,8 +57,9 @@
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/misc/cpp"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/misc/freetype"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/misc/single_file"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/arthurburke/Dev/Phyzz/Eigen"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -76,9 +79,11 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DDEBUG=Debug"/>
+					<Add option="-DEQUAL"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui"/>
-					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/example_allegro5"/>
-					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/example_apple_metal/Shared"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/gl3w/GL"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/impl/libs/glfw/include"/>
@@ -87,8 +92,9 @@
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/misc/cpp"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/misc/freetype"/>
 					<Add directory="/Users/arthurburke/Dev/Phyzz/imgui/misc/single_file"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/arthurburke/Dev/Phyzz/Eigen"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -261,17 +267,53 @@
 		<Unit filename="/Users/arthurburke/Dev/Phyzz/imgui/misc/single_file/imgui_single_file.h">
 			<Option target="Phyzz"/>
 		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/App.cpp">
+			<Option target="Phyzz"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/App.h">
+			<Option target="Phyzz"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Logging/PLogger.cpp">
+			<Option target="Phyzz"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Logging/PLogger.h">
+			<Option target="Phyzz"/>
+		</Unit>
 		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Main.cpp">
 			<Option target="Phyzz"/>
 		</Unit>
-		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/PSimulation.cpp">
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Physics/Field.cpp">
 			<Option target="Phyzz"/>
 		</Unit>
-		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/PSimulation.h">
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Physics/Field.h">
+			<Option target="Phyzz"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Physics/PSimulation.cpp">
+			<Option target="Phyzz"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Physics/PSimulation.h">
+			<Option target="Phyzz"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Toolkit/Solver.cpp">
+			<Option target="Phyzz"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/src/Toolkit/Solver.h">
 			<Option target="Phyzz"/>
 		</Unit>
 		<Unit filename="/Users/arthurburke/Dev/Phyzz/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/../../../../usr/local/lib/cmake/spdlog/spdlogConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/../../../../usr/local/lib/cmake/spdlog/spdlogConfigTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/../../../../usr/local/lib/cmake/spdlog/spdlogConfigTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/Users/arthurburke/Dev/Phyzz/../../../../usr/local/lib/cmake/spdlog/spdlogConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\spdlog\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

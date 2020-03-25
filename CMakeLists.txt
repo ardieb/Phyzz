@@ -3,9 +3,8 @@ PROJECT(Phyzz)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# Add dear imgui includes
 INCLUDE_DIRECTORIES(imgui)
-INCLUDE_DIRECTORIES(imgui/impl/example_allegro5)
-INCLUDE_DIRECTORIES(imgui/impl/example_apple_metal/Shared)
 INCLUDE_DIRECTORIES(imgui/impl/libs/gl3w/GL)
 INCLUDE_DIRECTORIES(imgui/impl/libs/glfw)
 INCLUDE_DIRECTORIES(imgui/impl/libs/glfw/include)
@@ -14,6 +13,9 @@ INCLUDE_DIRECTORIES(imgui/impl/libs/usynergy)
 INCLUDE_DIRECTORIES(imgui/misc/cpp)
 INCLUDE_DIRECTORIES(imgui/misc/freetype)
 INCLUDE_DIRECTORIES(imgui/misc/single_file)
+
+# Add Eigen3
+INCLUDE_DIRECTORIES(Eigen)
 
 SET(IMGUI_SOURCES
         imgui/impl/libs/gl3w/GL/gl3w.c
@@ -71,7 +73,19 @@ SET(IMGUI_SOURCES
         imgui/imstb_truetype.h)
 
 SET(PHYZZ_SOURCES
-        src/PSimulation.cpp
-        src/Main.cpp)
+        src/App.cpp
+        src/Main.cpp
+        src/Toolkit/Solver.cpp
+        src/Physics/Field.cpp
+        src/Physics/PSimulation.cpp
+        src/Logging/PLogger.cpp)
 
 ADD_EXECUTABLE(Phyzz ${IMGUI_SOURCES} ${PHYZZ_SOURCES})
+
+# Find spdlog for debugging
+FIND_PACKAGE(spdlog)
+TARGET_LINK_LIBRARIES(Phyzz spdlog::spdlog)
+
+
+
+

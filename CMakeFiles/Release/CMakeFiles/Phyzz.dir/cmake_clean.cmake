@@ -23,8 +23,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/Phyzz.dir/imgui/misc/cpp/imgui_stdlib.cpp.o"
   "CMakeFiles/Phyzz.dir/imgui/misc/fonts/binary_to_compressed_c.cpp.o"
   "CMakeFiles/Phyzz.dir/imgui/misc/freetype/imgui_freetype.cpp.o"
+  "CMakeFiles/Phyzz.dir/src/App.cpp.o"
+  "CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o"
   "CMakeFiles/Phyzz.dir/src/Main.cpp.o"
-  "CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o"
+  "CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o"
+  "CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o"
+  "CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o"
   "Phyzz"
   "Phyzz.pdb"
 )

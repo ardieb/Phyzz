@@ -771,6 +771,60 @@ imgui/misc/freetype/imgui_freetype.cpp.s:
 	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/imgui/misc/freetype/imgui_freetype.cpp.s
 .PHONY : imgui/misc/freetype/imgui_freetype.cpp.s
 
+src/App.o: src/App.cpp.o
+
+.PHONY : src/App.o
+
+# target to build an object file
+src/App.cpp.o:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/App.cpp.o
+.PHONY : src/App.cpp.o
+
+src/App.i: src/App.cpp.i
+
+.PHONY : src/App.i
+
+# target to preprocess a source file
+src/App.cpp.i:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/App.cpp.i
+.PHONY : src/App.cpp.i
+
+src/App.s: src/App.cpp.s
+
+.PHONY : src/App.s
+
+# target to generate assembly for a file
+src/App.cpp.s:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/App.cpp.s
+.PHONY : src/App.cpp.s
+
+src/Logging/PLogger.o: src/Logging/PLogger.cpp.o
+
+.PHONY : src/Logging/PLogger.o
+
+# target to build an object file
+src/Logging/PLogger.cpp.o:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.o
+.PHONY : src/Logging/PLogger.cpp.o
+
+src/Logging/PLogger.i: src/Logging/PLogger.cpp.i
+
+.PHONY : src/Logging/PLogger.i
+
+# target to preprocess a source file
+src/Logging/PLogger.cpp.i:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.i
+.PHONY : src/Logging/PLogger.cpp.i
+
+src/Logging/PLogger.s: src/Logging/PLogger.cpp.s
+
+.PHONY : src/Logging/PLogger.s
+
+# target to generate assembly for a file
+src/Logging/PLogger.cpp.s:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Logging/PLogger.cpp.s
+.PHONY : src/Logging/PLogger.cpp.s
+
 src/Main.o: src/Main.cpp.o
 
 .PHONY : src/Main.o
@@ -798,32 +852,86 @@ src/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
-src/PSimulation.o: src/PSimulation.cpp.o
+src/Physics/Field.o: src/Physics/Field.cpp.o
 
-.PHONY : src/PSimulation.o
+.PHONY : src/Physics/Field.o
 
 # target to build an object file
-src/PSimulation.cpp.o:
-	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/PSimulation.cpp.o
-.PHONY : src/PSimulation.cpp.o
+src/Physics/Field.cpp.o:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.o
+.PHONY : src/Physics/Field.cpp.o
 
-src/PSimulation.i: src/PSimulation.cpp.i
+src/Physics/Field.i: src/Physics/Field.cpp.i
 
-.PHONY : src/PSimulation.i
+.PHONY : src/Physics/Field.i
 
 # target to preprocess a source file
-src/PSimulation.cpp.i:
-	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/PSimulation.cpp.i
-.PHONY : src/PSimulation.cpp.i
+src/Physics/Field.cpp.i:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.i
+.PHONY : src/Physics/Field.cpp.i
 
-src/PSimulation.s: src/PSimulation.cpp.s
+src/Physics/Field.s: src/Physics/Field.cpp.s
 
-.PHONY : src/PSimulation.s
+.PHONY : src/Physics/Field.s
 
 # target to generate assembly for a file
-src/PSimulation.cpp.s:
-	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/PSimulation.cpp.s
-.PHONY : src/PSimulation.cpp.s
+src/Physics/Field.cpp.s:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Physics/Field.cpp.s
+.PHONY : src/Physics/Field.cpp.s
+
+src/Physics/PSimulation.o: src/Physics/PSimulation.cpp.o
+
+.PHONY : src/Physics/PSimulation.o
+
+# target to build an object file
+src/Physics/PSimulation.cpp.o:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.o
+.PHONY : src/Physics/PSimulation.cpp.o
+
+src/Physics/PSimulation.i: src/Physics/PSimulation.cpp.i
+
+.PHONY : src/Physics/PSimulation.i
+
+# target to preprocess a source file
+src/Physics/PSimulation.cpp.i:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.i
+.PHONY : src/Physics/PSimulation.cpp.i
+
+src/Physics/PSimulation.s: src/Physics/PSimulation.cpp.s
+
+.PHONY : src/Physics/PSimulation.s
+
+# target to generate assembly for a file
+src/Physics/PSimulation.cpp.s:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Physics/PSimulation.cpp.s
+.PHONY : src/Physics/PSimulation.cpp.s
+
+src/Toolkit/Solver.o: src/Toolkit/Solver.cpp.o
+
+.PHONY : src/Toolkit/Solver.o
+
+# target to build an object file
+src/Toolkit/Solver.cpp.o:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.o
+.PHONY : src/Toolkit/Solver.cpp.o
+
+src/Toolkit/Solver.i: src/Toolkit/Solver.cpp.i
+
+.PHONY : src/Toolkit/Solver.i
+
+# target to preprocess a source file
+src/Toolkit/Solver.cpp.i:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.i
+.PHONY : src/Toolkit/Solver.cpp.i
+
+src/Toolkit/Solver.s: src/Toolkit/Solver.cpp.s
+
+.PHONY : src/Toolkit/Solver.s
+
+# target to generate assembly for a file
+src/Toolkit/Solver.cpp.s:
+	$(MAKE) -f CMakeFiles/Phyzz.dir/build.make CMakeFiles/Phyzz.dir/src/Toolkit/Solver.cpp.s
+.PHONY : src/Toolkit/Solver.cpp.s
 
 # Help Target
 help:
@@ -906,12 +1014,24 @@ help:
 	@echo "... imgui/misc/freetype/imgui_freetype.o"
 	@echo "... imgui/misc/freetype/imgui_freetype.i"
 	@echo "... imgui/misc/freetype/imgui_freetype.s"
+	@echo "... src/App.o"
+	@echo "... src/App.i"
+	@echo "... src/App.s"
+	@echo "... src/Logging/PLogger.o"
+	@echo "... src/Logging/PLogger.i"
+	@echo "... src/Logging/PLogger.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
-	@echo "... src/PSimulation.o"
-	@echo "... src/PSimulation.i"
-	@echo "... src/PSimulation.s"
+	@echo "... src/Physics/Field.o"
+	@echo "... src/Physics/Field.i"
+	@echo "... src/Physics/Field.s"
+	@echo "... src/Physics/PSimulation.o"
+	@echo "... src/Physics/PSimulation.i"
+	@echo "... src/Physics/PSimulation.s"
+	@echo "... src/Toolkit/Solver.o"
+	@echo "... src/Toolkit/Solver.i"
+	@echo "... src/Toolkit/Solver.s"
 .PHONY : help
 
 
